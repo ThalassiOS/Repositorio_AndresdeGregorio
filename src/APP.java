@@ -1,3 +1,5 @@
+import Modelo.Gato;
+import Modelo.Perro;
 /**
  * Clase Main para ejecutar el programa.
  *  Crea instancias de Perro y Gato, imprime sus detalles y sonidos.
@@ -5,10 +7,6 @@
  * @author Andres de Gregorio
  * @version 1.0
  */
-
-import Modelo.Gato;
-import Modelo.Perro;
-
 public class APP {
 
     public static void main(String[] args) {
