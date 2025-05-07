@@ -1,5 +1,6 @@
 /**
- * Clase APP usada para ejecutar desde un main
+ * Clase Main para ejecutar el programa.
+ *  Crea instancias de Perro y Gato, imprime sus detalles y sonidos.
  *
  * @author Andres de Gregorio
  * @version 1.0
@@ -11,12 +12,10 @@ import Modelo.Perro;
 public class APP {
 
     public static void main(String[] args) {
-
-        Perro perro = new Perro("Fluffy");
-        System.out.println(perro);
-        perro.sonido();
+        Perro perro = new Perro("Firulais");
         Gato gato = new Gato("Michi");
-        System.out.println(gato);
-        gato.sonido();
+
+        System.out.println(perro.getNombre() + " dice: " + perro.sonido());
+        System.out.println(gato.getNombre() + " dice: " + gato.sonido());
     }
 }

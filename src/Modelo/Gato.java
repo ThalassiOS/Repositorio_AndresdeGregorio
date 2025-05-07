@@ -1,12 +1,11 @@
+package Modelo;
 /**
- * Clase Gato que hereda de Animal
+ * Clase Gato que hereda de la clase Animal.
+ * Representa un perro y su sonido característico.
  *
  * @author Andres de Gregorio
  * @version 1.0
  */
-
-package Modelo;
-
 public class Gato extends Animal {
 
     public Gato(String nombre) {
@@ -14,7 +13,7 @@ public class Gato extends Animal {
     }
 
     @Override
-    public void sonido() {
-        System.out.println("Miau");
+    public String sonido() {
+        return "Miau";
     }
 }

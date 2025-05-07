@@ -1,12 +1,11 @@
+package Modelo;
 /**
- * Clase Animal que contiene el atributo nombre, metodo toString y el metodo para el sonido
+ * Clase abstracta Animal que representa un animal genérico.
+ * Contiene un atributo nombre y un metodo abstracto sonido().
  *
  * @author Andres de Gregorio
  * @version 1.0
  */
-
-package Modelo;
-
 public abstract class Animal {
 
     String nombre;
@@ -30,5 +29,5 @@ public abstract class Animal {
                 '}';
     }
 
-    public abstract void sonido();
+    public abstract String sonido();
 }
