@@ -22,12 +22,5 @@ public abstract class Animal {
         this.nombre = nombre;
     }
 
-    @Override
-    public String toString() {
-        return "Animal{" +
-                "nombre='" + nombre + '\'' +
-                '}';
-    }
-
     public abstract String sonido();
 }
